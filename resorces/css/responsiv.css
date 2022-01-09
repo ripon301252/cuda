@@ -1,0 +1,184 @@
+
+@media only screen and (max-width: 1200px){
+    html{
+        font-size: 55.5%;
+    }
+
+    header{
+        height: 63vh;
+    }
+
+    .row{
+        margin: 0 15px;
+    }
+
+    .hero-text-box{
+        width: 90%;
+        margin-left: 120px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 1024px){
+    header{
+        height: 55vh;
+    }
+
+    .hero-text-box{
+        width: 75%;
+    }
+
+    h1{
+        font-size: 3rem;
+        
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    .mobile-menu span{
+        display: block;
+        cursor: pointer;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .testimonial-section .col:nth-child(1),
+    .testimonial-section .col:nth-child(3){
+	margin-left: 0;
+    }
+
+    .testimonial-section .col:nth-child(2),
+    .testimonial-section .col:nth-child(4){
+	margin-right: 0;	
+    }
+
+    .client-photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .client-review{
+        width: 100%;
+        float: none;
+        margin-top: 18px;
+        text-align: center;
+    }
+
+    .contact-section form{
+        width: 100%;
+        margin-left: 0;
+    } 
+}
+
+
+
+@media only screen and (max-width: 980px){
+    html{
+        font-size: 62.5%;
+    }
+
+    .span_1_of_4{
+        width: 47.6%;
+    }
+
+    .social-link{
+        margin-top: 25px;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px){
+    html{
+        font-size: 57.5%;
+    }
+
+    .little-description{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .footer-section li a{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+}
+
+    
+
+
+
+@media only screen and (max-width: 480px){
+    header{
+        height: 55vh;
+    }
+
+    html{
+        font-size: 47.5%;
+    }
+
+    .hero-text-box{
+        width: 90%;
+        margin-left: -1px;
+        margin-left: 16px;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        
+    }
+
+    .span_1_of_4{
+        width: 100%;
+    }
+
+    .footer-section li a{
+        font-size: 25px;
+    }
+
+    .portfolio-img{
+        margin-top: 30px;
+    }
+
+    .footer-section .col:first-child {
+        margin-top: 0;    
+    }
+}
+
+
+@media only screen and (max-width: 360px){
+   
+    header{
+        height: 55vh;
+    }
+
+    .hero-text-box{
+        width: 90%;
+        margin-left: -1px;
+        margin-left: 14px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .portfolio-filter button{
+        font-size: 12px;
+        padding: .6rem 1.1rem;
+    }
+
+    .btn-submit{
+        margin-left: -12px;
+    }
+
+    
+}
